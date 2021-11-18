@@ -20,7 +20,7 @@
 */
 
 /* TH Change: This should not overwrite the global File API `FileReader` object but rather store it in global var. */
-window.NativeFileReader = FileReader;
+window.NativeFileReader = window.FileReader;
 
 var exec = require('cordova/exec');
 var modulemapper = require('cordova/modulemapper');

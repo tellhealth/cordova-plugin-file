@@ -20,7 +20,7 @@
 */
 
 /* TH Change: This should not overwrite the global File API `File` object but rather store it in global var. */
-window.NativeFile = File;
+window.NativeFile = window.File;
 
 /**
  * Constructor.
